@@ -1,0 +1,93 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, #4CAF50, #f4f4f4);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #537854; /* Changed header color */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    position: relative;
+}
+
+header .trademark {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.welcome-section,
+.about-us-section {
+    text-align: center;
+    background-color: rgb(188, 211, 192);
+    padding: 2rem;
+    margin: 2rem auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.about-us-section h1,
+.about-us-section p,
+.about-us-section a {
+    color: #141614;
+    margin-bottom: 1rem; /* Adds space between elements */
+}
+
+.overview-image {
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #537854;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
